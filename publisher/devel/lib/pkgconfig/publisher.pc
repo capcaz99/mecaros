@@ -1,0 +1,8 @@
+prefix=/home/ros/workingSpaces/publisher/devel
+
+Name: publisher
+Description: Description of publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ros/workingSpaces/publisher/devel/lib 
+Requires: 
