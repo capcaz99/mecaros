@@ -45,9 +45,9 @@ while (ros::ok() )  {
 
 geometry_msgs::Twist msg ;
 
-msg.linear.x = double ( rand () ) / double (RAND_MAX) ;
-
-msg.angular.z = 2*double ( rand () ) / double (RAND_MAX)-1;
+//msg.linear.x = double ( rand () ) / double (RAND_MAX) ;
+msg.linear.x = rand() % 100 + 1;
+//msg.angular.z = 2*double ( rand () ) / double (RAND_MAX)-1;
 
 
 

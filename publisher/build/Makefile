@@ -409,6 +409,19 @@ std_msgs_generate_messages_py/fast:
 	$(MAKE) -f publisher/CMakeFiles/std_msgs_generate_messages_py.dir/build.make publisher/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
+#=============================================================================
+# Target rules for targets named subpos
+
+# Build rule for target.
+subpos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 subpos
+.PHONY : subpos
+
+# fast build rule for target.
+subpos/fast:
+	$(MAKE) -f publisher/CMakeFiles/subpos.dir/build.make publisher/CMakeFiles/subpos.dir/build
+.PHONY : subpos/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -442,6 +455,7 @@ help:
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... subpos"
 .PHONY : help
 
 

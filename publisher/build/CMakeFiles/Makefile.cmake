@@ -172,4 +172,5 @@ SET(CMAKE_DEPEND_INFO_FILES
   "publisher/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "publisher/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "publisher/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake"
+  "publisher/CMakeFiles/subpos.dir/DependInfo.cmake"
   )

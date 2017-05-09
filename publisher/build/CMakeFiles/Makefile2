@@ -290,6 +290,7 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 
 # Convenience name for "all" pass in the directory.
 publisher/all: publisher/CMakeFiles/pubvel.dir/all
+publisher/all: publisher/CMakeFiles/subpos.dir/all
 .PHONY : publisher/all
 
 # Convenience name for "clean" pass in the directory.
@@ -306,6 +307,7 @@ publisher/clean: publisher/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cle
 publisher/clean: publisher/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 publisher/clean: publisher/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 publisher/clean: publisher/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+publisher/clean: publisher/CMakeFiles/subpos.dir/clean
 .PHONY : publisher/clean
 
 # Convenience name for "preinstall" pass in the directory.
@@ -717,6 +719,41 @@ publisher/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: publisher/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target publisher/CMakeFiles/subpos.dir
+
+# All Build rule for target.
+publisher/CMakeFiles/subpos.dir/all:
+	$(MAKE) -f publisher/CMakeFiles/subpos.dir/build.make publisher/CMakeFiles/subpos.dir/depend
+	$(MAKE) -f publisher/CMakeFiles/subpos.dir/build.make publisher/CMakeFiles/subpos.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ros/workingSpaces/publisher/build/CMakeFiles  4
+	@echo "Built target subpos"
+.PHONY : publisher/CMakeFiles/subpos.dir/all
+
+# Include target in all.
+all: publisher/CMakeFiles/subpos.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+publisher/CMakeFiles/subpos.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/workingSpaces/publisher/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 publisher/CMakeFiles/subpos.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/workingSpaces/publisher/build/CMakeFiles 0
+.PHONY : publisher/CMakeFiles/subpos.dir/rule
+
+# Convenience name for target.
+subpos: publisher/CMakeFiles/subpos.dir/rule
+.PHONY : subpos
+
+# clean rule for target.
+publisher/CMakeFiles/subpos.dir/clean:
+	$(MAKE) -f publisher/CMakeFiles/subpos.dir/build.make publisher/CMakeFiles/subpos.dir/clean
+.PHONY : publisher/CMakeFiles/subpos.dir/clean
+
+# clean rule for target.
+clean: publisher/CMakeFiles/subpos.dir/clean
 .PHONY : clean
 
 #=============================================================================

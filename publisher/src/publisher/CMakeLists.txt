@@ -15,7 +15,9 @@ project (publisher)
 
 find_package(catkin REQUIRED COMPONENTS roscpp geometry_msgs)
 
-
+ #add_message_files(DIRECTORY msg FILES Num.msg)
+ #add_service_files(DIRECTORY srv FILES AddTwoInts.srv)
+ #generate_messages(DEPENDENCIES std_msgs)
 # Declare  our  catkin  package .
 
 catkin_package ()
@@ -42,3 +44,7 @@ add_executable (pubvel pubvel.cpp )
 # the  package .
 
 target_link_libraries(pubvel ${catkin_LIBRARIES})
+
+add_executable (subpos subpos.cpp )
+
+target_link_libraries(subpos ${catkin_LIBRARIES})

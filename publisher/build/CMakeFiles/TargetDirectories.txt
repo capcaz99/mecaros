@@ -17,4 +17,5 @@
 /home/ros/workingSpaces/publisher/build/publisher/CMakeFiles/std_msgs_generate_messages_cpp.dir
 /home/ros/workingSpaces/publisher/build/publisher/CMakeFiles/std_msgs_generate_messages_lisp.dir
 /home/ros/workingSpaces/publisher/build/publisher/CMakeFiles/std_msgs_generate_messages_py.dir
+/home/ros/workingSpaces/publisher/build/publisher/CMakeFiles/subpos.dir
 /home/ros/workingSpaces/publisher/build/CMakeFiles/tests.dir

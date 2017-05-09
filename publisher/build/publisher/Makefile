@@ -331,6 +331,20 @@ std_msgs_generate_messages_py/fast:
 	cd /home/ros/workingSpaces/publisher/build && $(MAKE) -f publisher/CMakeFiles/std_msgs_generate_messages_py.dir/build.make publisher/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
+# Convenience name for target.
+publisher/CMakeFiles/subpos.dir/rule:
+	cd /home/ros/workingSpaces/publisher/build && $(MAKE) -f CMakeFiles/Makefile2 publisher/CMakeFiles/subpos.dir/rule
+.PHONY : publisher/CMakeFiles/subpos.dir/rule
+
+# Convenience name for target.
+subpos: publisher/CMakeFiles/subpos.dir/rule
+.PHONY : subpos
+
+# fast build rule for target.
+subpos/fast:
+	cd /home/ros/workingSpaces/publisher/build && $(MAKE) -f publisher/CMakeFiles/subpos.dir/build.make publisher/CMakeFiles/subpos.dir/build
+.PHONY : subpos/fast
+
 pubvel.o: pubvel.cpp.o
 .PHONY : pubvel.o
 
@@ -354,6 +368,30 @@ pubvel.s: pubvel.cpp.s
 pubvel.cpp.s:
 	cd /home/ros/workingSpaces/publisher/build && $(MAKE) -f publisher/CMakeFiles/pubvel.dir/build.make publisher/CMakeFiles/pubvel.dir/pubvel.cpp.s
 .PHONY : pubvel.cpp.s
+
+subpos.o: subpos.cpp.o
+.PHONY : subpos.o
+
+# target to build an object file
+subpos.cpp.o:
+	cd /home/ros/workingSpaces/publisher/build && $(MAKE) -f publisher/CMakeFiles/subpos.dir/build.make publisher/CMakeFiles/subpos.dir/subpos.cpp.o
+.PHONY : subpos.cpp.o
+
+subpos.i: subpos.cpp.i
+.PHONY : subpos.i
+
+# target to preprocess a source file
+subpos.cpp.i:
+	cd /home/ros/workingSpaces/publisher/build && $(MAKE) -f publisher/CMakeFiles/subpos.dir/build.make publisher/CMakeFiles/subpos.dir/subpos.cpp.i
+.PHONY : subpos.cpp.i
+
+subpos.s: subpos.cpp.s
+.PHONY : subpos.s
+
+# target to generate assembly for a file
+subpos.cpp.s:
+	cd /home/ros/workingSpaces/publisher/build && $(MAKE) -f publisher/CMakeFiles/subpos.dir/build.make publisher/CMakeFiles/subpos.dir/subpos.cpp.s
+.PHONY : subpos.cpp.s
 
 # Help Target
 help:
@@ -380,10 +418,14 @@ help:
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... subpos"
 	@echo "... test"
 	@echo "... pubvel.o"
 	@echo "... pubvel.i"
 	@echo "... pubvel.s"
+	@echo "... subpos.o"
+	@echo "... subpos.i"
+	@echo "... subpos.s"
 .PHONY : help
 
 
