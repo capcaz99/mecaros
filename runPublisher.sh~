@@ -1,0 +1,2 @@
+source ~/publisher/devel/setup.bash
+rosrun publisher pubvel
