@@ -1,8 +1,8 @@
-prefix=/home/ros/workingSpaces/publisher/devel
+prefix=/home/ros/mecaros/publisher/devel
 
 Name: publisher
 Description: Description of publisher
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/ros/workingSpaces/publisher/devel/lib 
+Libs: -L/home/ros/mecaros/publisher/devel/lib 
 Requires: 

@@ -1,2 +1,2 @@
 publisher
--DCATKIN_DEVEL_PREFIX=/home/ros/workingSpaces/publisher/devel -DCMAKE_INSTALL_PREFIX=/home/ros/workingSpaces/publisher/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/ros/mecaros/publisher/devel -DCMAKE_INSTALL_PREFIX=/home/ros/mecaros/publisher/install -G Unix Makefiles

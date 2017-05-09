@@ -13,17 +13,6 @@
 #include <stdlib.h>
 // For rand() and RAND_MAX
 
-double d;
-// A callback function .  Executed each time a new pose
-// message arrives .
-void  poseMessageReceived ( const  geometry_msgs::Twist& msg)  {
-	ROS_INFO_STREAM( std::setprecision(2) << std::fixed
-	<< "Distance =(" <<  msg.linear.x << ")" );
-	d = msg.linear.x;
-}
-
-
-
 
 int  main ( int  argc ,  char  **argv )  {
 
@@ -37,7 +26,7 @@ ros::NodeHandle nh ;
 // Create a publisher object .
 
 ros::Publisher  pub = nh.advertise <geometry_msgs::Twist>("turtle1/cmd_vel" ,  1000);
-ros::Subscriber  sub = nh.subscribe( "turtle1/dist" , 1000,&poseMessageReceived);
+
 
 // Seed the random number generator .
 
@@ -75,16 +64,11 @@ ROS_INFO_STREAM( "Sending random velocity command : "
 
 << " angular=" << msg.angular.z) ;
 
-ROS_INFO_STREAM( "Distance : "
-
-<< " distance=" << d) ;
 
 // Wait until  it 's time for another iteration .
 
 rate . sleep () ;
 
 }
-
-
 
 }

@@ -7,4 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/ros/workingSpaces/publisher/build"
+export CMAKE_PREFIX_PATH="/home/ros/mecaros/publisher/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/ros/mecaros/publisher/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/ros/mecaros/publisher/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/ros/mecaros/publisher/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/ros/mecaros/publisher/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/ros/workingSpaces/publisher/src:/home/ros/mecaros/publisher/src:$ROS_PACKAGE_PATH"

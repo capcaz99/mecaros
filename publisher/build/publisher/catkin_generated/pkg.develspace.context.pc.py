@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "publisher"
-PROJECT_SPACE_DIR = "/home/ros/workingSpaces/publisher/devel"
+PROJECT_SPACE_DIR = "/home/ros/mecaros/publisher/devel"
 PROJECT_VERSION = "0.0.0"

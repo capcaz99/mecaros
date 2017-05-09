@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/ros/workingSpaces/publisher/devel/setup.sh
+    local-name: /home/ros/mecaros/publisher/devel/setup.sh
